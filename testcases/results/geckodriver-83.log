@@ -1,0 +1,5 @@
+1593184494124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuq9nfK"
+1593184495904	Marionette	INFO	Listening on port 44421
+1593184495940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/shirts/roadster/roadster-time-travlr-men-maroon--black-regular-fit-checked-casual-shirt/2353050/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+1593184525977	Marionette	INFO	Stopped listening on port 44421

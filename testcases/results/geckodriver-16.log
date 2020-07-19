@@ -1,0 +1,5 @@
+1593105591455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5gCz7B"
+1593105593381	Marionette	INFO	Listening on port 34953
+1593105593461	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 00:29:49.449: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

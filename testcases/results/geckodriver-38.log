@@ -1,0 +1,30 @@
+1593179008897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileStT3Z6"
+1593179010978	Marionette	INFO	Listening on port 40167
+1593179011006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593179077671	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+console.info: "Skipping device list refresh; not signed in"
+1593179077675	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179077676	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1593179077676	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1593179078236	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1593179078238	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179078239	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179078239	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+console.info: "Skipping device list refresh; not signed in"
+1593179078253	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1593179123897	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1593179123897	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179123897	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179123897	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179123898	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1771:18) JS Stack trace: _error@FxAccounts.jsm:1771:18
+withVerifiedAccountState/<@FxAccounts.jsm:803:20
+1593179127373	Marionette	INFO	Stopped listening on port 40167

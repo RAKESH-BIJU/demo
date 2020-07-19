@@ -1,0 +1,9 @@
+1593183059832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2bdTxC"
+1593183061754	Marionette	INFO	Listening on port 37363
+1593183061839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/sports-shoes/nike/nike-men-black--grey-woven-design-renew-rival-running-shoes/6676955/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+1593183099886	Marionette	INFO	Stopped listening on port 37363

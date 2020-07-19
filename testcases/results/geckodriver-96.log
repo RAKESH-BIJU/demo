@@ -1,0 +1,5 @@
+1593185710949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletu9AKT"
+1593185712985	Marionette	INFO	Listening on port 40149
+1593185713065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://constant.myntassets.com/web/assets/js/d-pdp.2174ebb5036dfbc82519.js, line 1: Error: Error: player script could not be downloaded
+1593185729229	Marionette	INFO	Stopped listening on port 40149

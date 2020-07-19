@@ -1,0 +1,13 @@
+1593106518395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLrZeoh"
+1593106520240	Marionette	INFO	Listening on port 43913
+1593106520300	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:30804): GVFS-RemoteVolumeMonitor-WARNING **: 00:29:49.328: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(firefox:30804): GVFS-RemoteVolumeMonitor-WARNING **: 00:29:49.328: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(firefox:30804): GVFS-RemoteVolumeMonitor-WARNING **: 00:29:49.328: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(firefox:30804): GVFS-RemoteVolumeMonitor-WARNING **: 00:29:49.328: Owner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(firefox:30804): GVFS-RemoteVolumeMonitor-WARNING **: 00:29:49.328: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts

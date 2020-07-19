@@ -1,0 +1,6 @@
+1593184131937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9FOpNW"
+1593184133869	Marionette	INFO	Listening on port 44541
+1593184133954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/pageinfo/pageInfo.js, line 562: NS_ERROR_IN_PROGRESS: Component returned failure code: 0x804b000f (NS_ERROR_IN_PROGRESS) [nsICacheEntry.dataSize]
+JavaScript error: https://www.myntra.com/shirts/roadster/roadster-time-travlr-men-maroon--black-regular-fit-checked-casual-shirt/2353050/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+1593184227495	Marionette	INFO	Stopped listening on port 44541

@@ -1,0 +1,6 @@
+1593184091188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebPbugD"
+1593184093032	Marionette	INFO	Listening on port 41703
+1593184093094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/shirts/roadster/roadster-time-travlr-men-maroon--black-regular-fit-checked-casual-shirt/2353050/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593184121121	Marionette	INFO	Stopped listening on port 41703

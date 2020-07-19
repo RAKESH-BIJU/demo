@@ -1,0 +1,9 @@
+1593180616086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFU4DU3"
+1593180618185	Marionette	INFO	Listening on port 40039
+1593180618205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593180638354	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1593180652948	Marionette	INFO	Stopped listening on port 40039

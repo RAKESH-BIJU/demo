@@ -1,0 +1,10 @@
+1593182569815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRz72je"
+1593182571870	Marionette	INFO	Listening on port 37341
+1593182571930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://www.myntra.com/sports-shoes/nike/nike-men-black--grey-woven-design-renew-rival-running-shoes/6676955/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593182603240	Marionette	INFO	Stopped listening on port 37341

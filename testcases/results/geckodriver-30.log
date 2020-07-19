@@ -1,0 +1,7 @@
+1593146889756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh4fz1w"
+1593146891480	Marionette	INFO	Listening on port 43547
+1593146891562	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1593147271442	Marionette	INFO	Stopped listening on port 43547

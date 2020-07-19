@@ -1,0 +1,5 @@
+1593593698020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6ZrGhM"
+1593593700142	Marionette	INFO	Listening on port 37555
+1593593700228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/shirts/highlander/highlander-blue-slim-washed-denim-casual-shirt/1265399/buy line 1648 > scriptElement, line 1: ReferenceError: gtag is not defined
+1593593721454	Marionette	INFO	Stopped listening on port 37555

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200709 20:36:41.319" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
+<suite source="/home/rakesh/PycharmProjects/Robot_Selenium/testcases/rs_testcases.robot" id="s1" name="Rs Testcases">
+<test id="s1-t1" name="buying_shoe">
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>30 seconds</arg>
+</arguments>
+<status status="PASS" endtime="20200709 20:36:41.413" starttime="20200709 20:36:41.412"></status>
+</kw>
+<kw name="launchurl" library="rs_keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${my_url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20200709 20:36:41.414" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
+<msg timestamp="20200709 20:36:41.415" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-104.log</msg>
+<status status="PASS" endtime="20200709 20:36:47.112" starttime="20200709 20:36:41.413"></status>
+</kw>
+<status status="PASS" endtime="20200709 20:36:47.112" starttime="20200709 20:36:41.413"></status>
+</kw>
+<kw name="add_shoe" library="rs_keywords">
+<msg timestamp="20200709 20:36:47.113" level="FAIL">Keyword 'rs_keywords.add_shoe' expected 1 argument, got 0.</msg>
+<status status="FAIL" endtime="20200709 20:36:47.113" starttime="20200709 20:36:47.112"></status>
+</kw>
+<doc>Automation for adding shoe in cart on Myntra</doc>
+<tags>
+<tag>buying_shoes</tag>
+</tags>
+<status status="FAIL" endtime="20200709 20:36:47.113" critical="yes" starttime="20200709 20:36:41.412">Keyword 'rs_keywords.add_shoe' expected 1 argument, got 0.</status>
+</test>
+<status status="FAIL" endtime="20200709 20:36:47.115" starttime="20200709 20:36:41.320"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">buying_shoes</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Rs Testcases" pass="0">Rs Testcases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

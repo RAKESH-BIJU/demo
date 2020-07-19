@@ -1,0 +1,8 @@
+1593184235045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTOkbFV"
+1593184236732	Marionette	INFO	Listening on port 40263
+1593184236769	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://www.myntra.com/shirts/roadster/roadster-time-travlr-men-maroon--black-regular-fit-checked-casual-shirt/2353050/buy line 1647 > scriptElement, line 1: ReferenceError: gtag is not defined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593184265848	Marionette	INFO	Stopped listening on port 40263

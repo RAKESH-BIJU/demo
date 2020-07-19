@@ -1,0 +1,6 @@
+1593144533530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5p5q00"
+1593144535632	Marionette	INFO	Listening on port 41603
+1593144535644	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.in"
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593146879685	Marionette	INFO	Stopped listening on port 41603

@@ -1,0 +1,5 @@
+1593144825590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileauZL8D"
+1593144827744	Marionette	INFO	Listening on port 41905
+1593144827799	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593146877399	Marionette	INFO	Stopped listening on port 41905

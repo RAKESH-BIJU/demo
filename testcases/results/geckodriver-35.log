@@ -1,0 +1,4 @@
+1593178621599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefE6fbe"
+1593178623721	Marionette	INFO	Listening on port 41395
+1593178623806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593178885578	Marionette	INFO	Stopped listening on port 41395

@@ -1,0 +1,5 @@
+1593185018625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile72XgBi"
+1593185020844	Marionette	INFO	Listening on port 43443
+1593185020935	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED
+1593185036072	Marionette	INFO	Stopped listening on port 43443
