@@ -13,7 +13,7 @@ buying_shoe
     [Documentation]    Automation for adding shoe in cart on Myntra
     [Tags]    buying_shoes
 
-    set selenium implicit wait    30 seconds
+   set selenium implicit wait    30 seconds
    launchurl
    add_shoe
 

@@ -9,11 +9,10 @@ launchurl
     open browser    ${my_url}      ${browser}
 
 add_shoe
-    [Arguments]    ${product}
     maximize browser window
     wait until page contains element    ${search_box}
     click element    ${search_box}
-    input text    ${search_box}    ${product}
+    input text    ${search_box}    nike shoe for man
     click element    ${search_btn}
     wait until page contains element    ${select_shoe}
     click element    ${select_shoe}

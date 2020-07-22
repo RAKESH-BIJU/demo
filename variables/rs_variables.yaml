@@ -9,11 +9,11 @@
   search_btn:       xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span
   # Variables for buying shoe
   select_shoe:      xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]
-  shoe_page:         title=Buy Nike Men Grey DOWNSHIFTER 7 Running Shoes - Sports Shoes for Men 10714242 | Myntra
+  shoe_page:         title=Buy Nike Men Black & White REVOLUTION 4 Running Shoe - Sports Shoes for Men 4698763 | Myntra
   shoe_add:         xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]
   shoe_size:        xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[4]/div[1]/button/p
   # Variables for buying shirt
   select_shirt:     xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]
-  shirt_page:        title=Buy Highlander Blue Slim Washed Denim Casual Shirt - Shirts for Men 1265399 | Myntra
+  shirt_page:        title=Buy Roadster Men Beige & Navy Blue Checked Reversible Casual Shirt - Shirts for Men 2220379 | Myntra
   shirt_size:       xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/button/p
   shirt_add:        xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]
