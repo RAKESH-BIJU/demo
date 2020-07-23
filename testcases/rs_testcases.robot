@@ -4,7 +4,7 @@ Library      SeleniumLibrary
 #Variables    /home/rakesh/PycharmProjects/Robot_Selenium/variables/rs_variables.yaml
 #Resource     /home/rakesh/PycharmProjects/Robot_Selenium/keywords/rs_keywords.robot
 
-Resource    C:/Users/ROHITH/.jenkins/workspace/Rakesh-Robot/keywords/rs_keyword.robot
+Resource    C:/Users/ROHITH/.jenkins/workspace/Rakesh-Robot/keywords/rs_keywords.robot
 Variables    C:/Users/ROHITH/.jenkins/workspace/Rakesh-Robot/variables/rs_variables.yaml
 
 *** Test Cases ***
