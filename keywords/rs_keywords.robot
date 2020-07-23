@@ -1,7 +1,7 @@
 *** Settings ***
 
 Library      SeleniumLibrary
-Variables    /home/rakesh/PycharmProjects/Robot_Selenium/variables/rs_variables.yaml
+Variables    \home\rakesh\PycharmProjects\Robot_Selenium\variables\rs_variables.yaml
 
 *** Keywords ***
 

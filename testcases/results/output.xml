@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20200722 12:16:26.763" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
+<robot rpa="false" generated="20200723 10:32:07.568" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
 <suite source="/home/rakesh/PycharmProjects/Robot_Selenium/testcases/rs_testcases.robot" id="s1" name="Rs Testcases">
 <test id="s1-t1" name="buying_shoe">
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
@@ -7,7 +7,7 @@
 <arguments>
 <arg>30 seconds</arg>
 </arguments>
-<status status="PASS" endtime="20200722 12:16:27.017" starttime="20200722 12:16:27.016"></status>
+<status status="PASS" endtime="20200723 10:32:07.767" starttime="20200723 10:32:07.766"></status>
 </kw>
 <kw name="launchurl" library="rs_keywords">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -16,31 +16,31 @@
 <arg>${my_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20200722 12:16:27.018" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
-<msg timestamp="20200722 12:16:27.022" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-114.log</msg>
-<status status="PASS" endtime="20200722 12:16:35.458" starttime="20200722 12:16:27.018"></status>
+<msg timestamp="20200723 10:32:07.768" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
+<msg timestamp="20200723 10:32:07.770" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-115.log</msg>
+<status status="PASS" endtime="20200723 10:32:15.138" starttime="20200723 10:32:07.767"></status>
 </kw>
-<status status="PASS" endtime="20200722 12:16:35.459" starttime="20200722 12:16:27.018"></status>
+<status status="PASS" endtime="20200723 10:32:15.138" starttime="20200723 10:32:07.767"></status>
 </kw>
 <kw name="add_shoe" library="rs_keywords">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20200722 12:16:35.778" starttime="20200722 12:16:35.462"></status>
+<status status="PASS" endtime="20200723 10:32:15.443" starttime="20200723 10:32:15.140"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
 <arg>${search_box}</arg>
 </arguments>
-<status status="PASS" endtime="20200722 12:16:35.785" starttime="20200722 12:16:35.778"></status>
+<status status="PASS" endtime="20200723 10:32:15.458" starttime="20200723 10:32:15.444"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${search_box}</arg>
 </arguments>
-<msg timestamp="20200722 12:16:35.786" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
-<status status="PASS" endtime="20200722 12:16:36.069" starttime="20200722 12:16:35.785"></status>
+<msg timestamp="20200723 10:32:15.459" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200723 10:32:15.730" starttime="20200723 10:32:15.458"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -48,62 +48,85 @@
 <arg>${search_box}</arg>
 <arg>nike shoe for man</arg>
 </arguments>
-<msg timestamp="20200722 12:16:36.070" level="INFO">Typing text 'nike shoe for man' into text field 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
-<status status="PASS" endtime="20200722 12:16:36.307" starttime="20200722 12:16:36.069"></status>
+<msg timestamp="20200723 10:32:15.731" level="INFO">Typing text 'nike shoe for man' into text field 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200723 10:32:15.974" starttime="20200723 10:32:15.730"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${search_btn}</arg>
 </arguments>
-<msg timestamp="20200722 12:16:36.308" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span'.</msg>
-<status status="PASS" endtime="20200722 12:16:37.474" starttime="20200722 12:16:36.308"></status>
+<msg timestamp="20200723 10:32:15.975" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span'.</msg>
+<status status="PASS" endtime="20200723 10:32:19.722" starttime="20200723 10:32:15.974"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
 <arg>${select_shoe}</arg>
 </arguments>
-<status status="PASS" endtime="20200722 12:16:37.559" starttime="20200722 12:16:37.474"></status>
+<status status="PASS" endtime="20200723 10:32:19.772" starttime="20200723 10:32:19.722"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${select_shoe}</arg>
 </arguments>
-<msg timestamp="20200722 12:16:37.559" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]'.</msg>
-<status status="PASS" endtime="20200722 12:16:38.036" starttime="20200722 12:16:37.559"></status>
+<msg timestamp="20200723 10:32:19.773" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]'.</msg>
+<status status="PASS" endtime="20200723 10:32:20.048" starttime="20200723 10:32:19.772"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3 seconds</arg>
 </arguments>
-<msg timestamp="20200722 12:16:41.036" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20200722 12:16:41.037" starttime="20200722 12:16:38.036"></status>
+<msg timestamp="20200723 10:32:23.049" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200723 10:32:23.049" starttime="20200723 10:32:20.048"></status>
 </kw>
 <kw name="Switch Window" library="SeleniumLibrary">
 <doc>Switches to browser window matching ``locator``.</doc>
 <arguments>
 <arg>${shoe_page}</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20200722 12:16:41.401" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-60.png"&gt;&lt;img src="selenium-screenshot-60.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20200722 12:16:41.401" starttime="20200722 12:16:41.133"></status>
+<status status="PASS" endtime="20200723 10:32:23.469" starttime="20200723 10:32:23.050"></status>
 </kw>
-<msg timestamp="20200722 12:16:41.405" level="FAIL">Unable to locate window with title 'Buy Nike Men Black &amp; White REVOLUTION 4 Running Shoe - Sports Shoes for Men 4698763 | Myntra'.</msg>
-<status status="FAIL" endtime="20200722 12:16:41.406" starttime="20200722 12:16:41.037"></status>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${shoe_size}</arg>
+</arguments>
+<msg timestamp="20200723 10:32:23.469" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[4]/div[1]/button/p'.</msg>
+<status status="PASS" endtime="20200723 10:32:23.786" starttime="20200723 10:32:23.469"></status>
 </kw>
-<status status="FAIL" endtime="20200722 12:16:41.406" starttime="20200722 12:16:35.460"></status>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${shoe_add}</arg>
+</arguments>
+<status status="PASS" endtime="20200723 10:32:23.797" starttime="20200723 10:32:23.786"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${shoe_add}</arg>
+</arguments>
+<msg timestamp="20200723 10:32:23.798" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]'.</msg>
+<status status="PASS" endtime="20200723 10:32:24.051" starttime="20200723 10:32:23.797"></status>
+</kw>
+<kw name="clo">
+<msg timestamp="20200723 10:32:24.059" level="FAIL">No keyword with name 'clo' found. Did you mean:
+    BuiltIn.Log</msg>
+<status status="FAIL" endtime="20200723 10:32:24.059" starttime="20200723 10:32:24.058"></status>
+</kw>
+<status status="FAIL" endtime="20200723 10:32:24.059" starttime="20200723 10:32:15.139"></status>
 </kw>
 <doc>Automation for adding shoe in cart on Myntra</doc>
 <tags>
 <tag>buying_shoes</tag>
 </tags>
-<status status="FAIL" endtime="20200722 12:16:41.406" critical="yes" starttime="20200722 12:16:27.015">Unable to locate window with title 'Buy Nike Men Black &amp; White REVOLUTION 4 Running Shoe - Sports Shoes for Men 4698763 | Myntra'.</status>
+<status status="FAIL" endtime="20200723 10:32:24.059" critical="yes" starttime="20200723 10:32:07.766">No keyword with name 'clo' found. Did you mean:
+    BuiltIn.Log</status>
 </test>
-<status status="FAIL" endtime="20200722 12:16:41.408" starttime="20200722 12:16:26.765"></status>
+<status status="FAIL" endtime="20200723 10:32:24.061" starttime="20200723 10:32:07.569"></status>
 </suite>
 <statistics>
 <total>
