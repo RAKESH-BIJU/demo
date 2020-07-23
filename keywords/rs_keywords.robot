@@ -22,8 +22,6 @@ add_shoe
     wait until page contains element    ${shoe_add}
     click element    ${shoe_add}
 
-    clo
-
 add_shirt
 
     maximize browser window

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20200723 10:53:53.347" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
+<robot rpa="false" generated="20200723 11:27:40.717" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
 <suite source="/home/rakesh/PycharmProjects/Robot_Selenium/testcases/rs_testcases.robot" id="s1" name="Rs Testcases">
 <test id="s1-t1" name="buying_shoe">
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
@@ -7,7 +7,7 @@
 <arguments>
 <arg>30 seconds</arg>
 </arguments>
-<status status="PASS" endtime="20200723 10:53:53.440" starttime="20200723 10:53:53.439"></status>
+<status status="PASS" endtime="20200723 11:27:40.817" starttime="20200723 11:27:40.816"></status>
 </kw>
 <kw name="launchurl" library="rs_keywords">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -16,52 +16,124 @@
 <arg>${my_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20200723 10:53:53.440" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
-<msg timestamp="20200723 10:53:53.442" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-116.log</msg>
-<status status="PASS" endtime="20200723 10:54:13.455" starttime="20200723 10:53:53.440"></status>
+<msg timestamp="20200723 11:27:40.818" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
+<msg timestamp="20200723 11:27:40.820" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-118.log</msg>
+<status status="PASS" endtime="20200723 11:28:13.746" starttime="20200723 11:27:40.817"></status>
 </kw>
-<status status="PASS" endtime="20200723 10:54:13.455" starttime="20200723 10:53:53.440"></status>
+<status status="PASS" endtime="20200723 11:28:13.747" starttime="20200723 11:27:40.817"></status>
 </kw>
 <kw name="add_shoe" library="rs_keywords">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20200723 10:54:15.882" level="FAIL">WebDriverException: Message: Failed to decode response from marionette
-</msg>
-<status status="FAIL" endtime="20200723 10:54:15.882" starttime="20200723 10:54:13.463"></status>
+<status status="PASS" endtime="20200723 11:28:14.059" starttime="20200723 11:28:13.749"></status>
 </kw>
-<msg timestamp="20200723 10:54:15.882" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: Failed to decode response from marionette
-</msg>
-<msg timestamp="20200723 10:54:15.883" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-</msg>
-<status status="FAIL" endtime="20200723 10:54:15.883" starttime="20200723 10:54:13.457"></status>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${search_box}</arg>
+</arguments>
+<status status="PASS" endtime="20200723 11:28:14.079" starttime="20200723 11:28:14.059"></status>
 </kw>
-<status status="FAIL" endtime="20200723 10:54:15.883" starttime="20200723 10:54:13.456"></status>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${search_box}</arg>
+</arguments>
+<msg timestamp="20200723 11:28:14.081" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200723 11:28:14.355" starttime="20200723 11:28:14.080"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${search_box}</arg>
+<arg>nike shoe for man</arg>
+</arguments>
+<msg timestamp="20200723 11:28:14.356" level="INFO">Typing text 'nike shoe for man' into text field 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200723 11:28:14.607" starttime="20200723 11:28:14.355"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${search_btn}</arg>
+</arguments>
+<msg timestamp="20200723 11:28:14.608" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span'.</msg>
+<status status="PASS" endtime="20200723 11:28:22.050" starttime="20200723 11:28:14.607"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${select_shoe}</arg>
+</arguments>
+<status status="PASS" endtime="20200723 11:28:22.094" starttime="20200723 11:28:22.050"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${select_shoe}</arg>
+</arguments>
+<msg timestamp="20200723 11:28:22.094" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]'.</msg>
+<status status="PASS" endtime="20200723 11:28:22.331" starttime="20200723 11:28:22.094"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200723 11:28:25.332" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200723 11:28:25.332" starttime="20200723 11:28:22.331"></status>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<doc>Switches to browser window matching ``locator``.</doc>
+<arguments>
+<arg>${shoe_page}</arg>
+</arguments>
+<status status="PASS" endtime="20200723 11:28:25.412" starttime="20200723 11:28:25.333"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${shoe_size}</arg>
+</arguments>
+<msg timestamp="20200723 11:28:25.412" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[4]/div[1]/button/p'.</msg>
+<status status="PASS" endtime="20200723 11:28:25.669" starttime="20200723 11:28:25.412"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${shoe_add}</arg>
+</arguments>
+<status status="PASS" endtime="20200723 11:28:25.682" starttime="20200723 11:28:25.669"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${shoe_add}</arg>
+</arguments>
+<msg timestamp="20200723 11:28:25.683" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]'.</msg>
+<status status="PASS" endtime="20200723 11:28:25.950" starttime="20200723 11:28:25.682"></status>
+</kw>
+<status status="PASS" endtime="20200723 11:28:25.950" starttime="20200723 11:28:13.747"></status>
 </kw>
 <doc>Automation for adding shoe in cart on Myntra</doc>
 <tags>
 <tag>buying_shoes</tag>
 </tags>
-<status status="FAIL" endtime="20200723 10:54:15.884" critical="yes" starttime="20200723 10:53:53.438">NoSuchWindowException: Message: Browsing context has been discarded
-</status>
+<status status="PASS" endtime="20200723 11:28:25.950" critical="yes" starttime="20200723 11:27:40.815"></status>
 </test>
-<status status="FAIL" endtime="20200723 10:54:15.885" starttime="20200723 10:53:53.348"></status>
+<status status="PASS" endtime="20200723 11:28:25.951" starttime="20200723 11:27:40.718"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="1" pass="0">Critical Tests</stat>
-<stat fail="1" pass="0">All Tests</stat>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
-<stat fail="1" pass="0">buying_shoes</stat>
+<stat fail="0" pass="1">buying_shoes</stat>
 </tag>
 <suite>
-<stat fail="1" id="s1" name="Rs Testcases" pass="0">Rs Testcases</stat>
+<stat fail="0" id="s1" name="Rs Testcases" pass="1">Rs Testcases</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20200723 10:54:15.882" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: Failed to decode response from marionette
-</msg>
 </errors>
 </robot>
