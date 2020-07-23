@@ -1,4 +1,4 @@
 pip install pyYAML
 pip install robotframework
 pip install robotframework-seleniumlibrary
-robot -d results/ -e buying_shirt rs_testcases.robot
+robot -e buying_shirt testcases\rs_testcases.robot
