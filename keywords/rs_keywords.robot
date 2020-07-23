@@ -2,7 +2,7 @@
 
 Library      SeleniumLibrary
 #Variables    /home/rakesh/PycharmProjects/Robot_Selenium/variables/rs_variables.yaml
-Variables    C:\Users\ROHITH\.jenkins\workspace\Rakesh-Robot\variables\rs_variables.yaml
+Variables    C:/Users/ROHITH/.jenkins/workspace/Rakesh-Robot/variables/rs_variables.yaml
 *** Keywords ***
 
 launchurl
