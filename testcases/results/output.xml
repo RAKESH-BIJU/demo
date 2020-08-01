@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20200723 11:27:40.717" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
+<robot rpa="false" generated="20200801 20:30:59.208" generator="Robot 3.2.1 (Python 2.7.17 on linux2)">
 <suite source="/home/rakesh/PycharmProjects/Robot_Selenium/testcases/rs_testcases.robot" id="s1" name="Rs Testcases">
-<test id="s1-t1" name="buying_shoe">
+<test id="s1-t1" name="buying_shirt">
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>30 seconds</arg>
 </arguments>
-<status status="PASS" endtime="20200723 11:27:40.817" starttime="20200723 11:27:40.816"></status>
+<status status="PASS" endtime="20200801 20:30:59.484" starttime="20200801 20:30:59.483"></status>
 </kw>
 <kw name="launchurl" library="rs_keywords">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -16,111 +16,118 @@
 <arg>${my_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20200723 11:27:40.818" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
-<msg timestamp="20200723 11:27:40.820" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-118.log</msg>
-<status status="PASS" endtime="20200723 11:28:13.746" starttime="20200723 11:27:40.817"></status>
+<msg timestamp="20200801 20:30:59.485" level="INFO">Opening browser 'firefox' to base url 'https://www.myntra.com/'.</msg>
+<msg timestamp="20200801 20:30:59.489" level="INFO">Firefox driver log is always forced to to: /home/rakesh/PycharmProjects/Robot_Selenium/testcases/results/geckodriver-125.log</msg>
+<status status="PASS" endtime="20200801 20:31:06.566" starttime="20200801 20:30:59.485"></status>
 </kw>
-<status status="PASS" endtime="20200723 11:28:13.747" starttime="20200723 11:27:40.817"></status>
+<status status="PASS" endtime="20200801 20:31:06.567" starttime="20200801 20:30:59.484"></status>
 </kw>
-<kw name="add_shoe" library="rs_keywords">
+<kw name="add_shirt" library="rs_keywords">
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20200723 11:28:14.059" starttime="20200723 11:28:13.749"></status>
+<status status="PASS" endtime="20200801 20:31:06.878" starttime="20200801 20:31:06.568"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
 <arg>${search_box}</arg>
 </arguments>
-<status status="PASS" endtime="20200723 11:28:14.079" starttime="20200723 11:28:14.059"></status>
+<status status="PASS" endtime="20200801 20:31:06.911" starttime="20200801 20:31:06.879"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${search_box}</arg>
 </arguments>
-<msg timestamp="20200723 11:28:14.081" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
-<status status="PASS" endtime="20200723 11:28:14.355" starttime="20200723 11:28:14.080"></status>
+<msg timestamp="20200801 20:31:06.912" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200801 20:31:07.248" starttime="20200801 20:31:06.912"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
 <arguments>
 <arg>${search_box}</arg>
-<arg>nike shoe for man</arg>
+<arg>shirts for men</arg>
 </arguments>
-<msg timestamp="20200723 11:28:14.356" level="INFO">Typing text 'nike shoe for man' into text field 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
-<status status="PASS" endtime="20200723 11:28:14.607" starttime="20200723 11:28:14.355"></status>
+<msg timestamp="20200801 20:31:07.248" level="INFO">Typing text 'shirts for men' into text field 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/input'.</msg>
+<status status="PASS" endtime="20200801 20:31:07.525" starttime="20200801 20:31:07.248"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${search_btn}</arg>
 </arguments>
-<msg timestamp="20200723 11:28:14.608" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span'.</msg>
-<status status="PASS" endtime="20200723 11:28:22.050" starttime="20200723 11:28:14.607"></status>
+<msg timestamp="20200801 20:31:07.526" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/header/div[2]/div[3]/a/span'.</msg>
+<status status="PASS" endtime="20200801 20:31:09.242" starttime="20200801 20:31:07.526"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
-<arg>${select_shoe}</arg>
+<arg>${select_shirt}</arg>
 </arguments>
-<status status="PASS" endtime="20200723 11:28:22.094" starttime="20200723 11:28:22.050"></status>
+<status status="PASS" endtime="20200801 20:31:09.277" starttime="20200801 20:31:09.243"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${select_shoe}</arg>
+<arg>${select_shirt}</arg>
 </arguments>
-<msg timestamp="20200723 11:28:22.094" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]'.</msg>
-<status status="PASS" endtime="20200723 11:28:22.331" starttime="20200723 11:28:22.094"></status>
+<msg timestamp="20200801 20:31:09.278" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]'.</msg>
+<status status="PASS" endtime="20200801 20:31:09.703" starttime="20200801 20:31:09.277"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3 seconds</arg>
 </arguments>
-<msg timestamp="20200723 11:28:25.332" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20200723 11:28:25.332" starttime="20200723 11:28:22.331"></status>
+<msg timestamp="20200801 20:31:12.704" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200801 20:31:12.704" starttime="20200801 20:31:09.703"></status>
 </kw>
 <kw name="Switch Window" library="SeleniumLibrary">
 <doc>Switches to browser window matching ``locator``.</doc>
 <arguments>
-<arg>${shoe_page}</arg>
+<arg>${shirt_page}</arg>
 </arguments>
-<status status="PASS" endtime="20200723 11:28:25.412" starttime="20200723 11:28:25.333"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
-<arguments>
-<arg>${shoe_size}</arg>
-</arguments>
-<msg timestamp="20200723 11:28:25.412" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[4]/div[1]/button/p'.</msg>
-<status status="PASS" endtime="20200723 11:28:25.669" starttime="20200723 11:28:25.412"></status>
+<status status="PASS" endtime="20200801 20:31:12.798" starttime="20200801 20:31:12.705"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
 <arguments>
-<arg>${shoe_add}</arg>
+<arg>${shirt_size}</arg>
 </arguments>
-<status status="PASS" endtime="20200723 11:28:25.682" starttime="20200723 11:28:25.669"></status>
+<status status="PASS" endtime="20200801 20:31:12.802" starttime="20200801 20:31:12.798"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${shoe_add}</arg>
+<arg>${shirt_size}</arg>
 </arguments>
-<msg timestamp="20200723 11:28:25.683" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]'.</msg>
-<status status="PASS" endtime="20200723 11:28:25.950" starttime="20200723 11:28:25.682"></status>
+<msg timestamp="20200801 20:31:12.803" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/button/p'.</msg>
+<status status="PASS" endtime="20200801 20:31:13.077" starttime="20200801 20:31:12.803"></status>
 </kw>
-<status status="PASS" endtime="20200723 11:28:25.950" starttime="20200723 11:28:13.747"></status>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${shirt_add}</arg>
+</arguments>
+<status status="PASS" endtime="20200801 20:31:13.083" starttime="20200801 20:31:13.077"></status>
 </kw>
-<doc>Automation for adding shoe in cart on Myntra</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${shirt_add}</arg>
+</arguments>
+<msg timestamp="20200801 20:31:13.083" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div/div[1]'.</msg>
+<status status="PASS" endtime="20200801 20:31:13.348" starttime="20200801 20:31:13.083"></status>
+</kw>
+<status status="PASS" endtime="20200801 20:31:13.348" starttime="20200801 20:31:06.567"></status>
+</kw>
+<doc>Automation for adding shirt in cart on Myntra</doc>
 <tags>
-<tag>buying_shoes</tag>
+<tag>buying_shirt</tag>
 </tags>
-<status status="PASS" endtime="20200723 11:28:25.950" critical="yes" starttime="20200723 11:27:40.815"></status>
+<status status="PASS" endtime="20200801 20:31:13.348" critical="yes" starttime="20200801 20:30:59.482"></status>
 </test>
-<status status="PASS" endtime="20200723 11:28:25.951" starttime="20200723 11:27:40.718"></status>
+<status status="PASS" endtime="20200801 20:31:13.349" starttime="20200801 20:30:59.211"></status>
 </suite>
 <statistics>
 <total>
@@ -128,7 +135,7 @@
 <stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
-<stat fail="0" pass="1">buying_shoes</stat>
+<stat fail="0" pass="1">buying_shirt</stat>
 </tag>
 <suite>
 <stat fail="0" id="s1" name="Rs Testcases" pass="1">Rs Testcases</stat>

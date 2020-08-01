@@ -1,0 +1,5 @@
+1596089507628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile80WXoB"
+1596089511045	Marionette	INFO	Listening on port 39851
+1596089511137	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/sports-shoes/nike/nike-men-blue-downshifter-7-running-shoes/10714420/buy line 1630 > scriptElement, line 1: ReferenceError: gtag is not defined
+1596089539047	Marionette	INFO	Stopped listening on port 39851

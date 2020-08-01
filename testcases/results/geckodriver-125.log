@@ -1,0 +1,5 @@
+1596294061079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileovdZlR"
+1596294064034	Marionette	INFO	Listening on port 41715
+1596294064088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.myntra.com/shirts/roadster/roadster-men-blue-regular-fit-printed-casual-shirt/1364628/buy line 1630 > scriptElement, line 1: ReferenceError: gtag is not defined
+1596294085971	Marionette	INFO	Stopped listening on port 41715
